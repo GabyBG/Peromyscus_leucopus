@@ -1,13 +1,13 @@
-Annotation of the Peromyscus_leucopus genome
+#Annotation of the Peromyscus_leucopus genome
 
-Runing blast:
+##Runing blast:
 /data/users/gbalderr/ncbi-blast-2.7.1+/bin/blastx  -query 1.fa -db landmarkdb/landmark -out 1.xml -evalue 0.001 -outfmt 5 -num_threads 32
 
-#Run Blast2Go
+##Run Blast2Go
 
 
-PFam from the protein sequences
-  #Selecting longer transcript
+##PFam from the protein sequences
+  Selecting longer transcript
 
   Running Pfam 
 module load hmmer/3.1b2
@@ -20,7 +20,7 @@ share/samdata/gbalderr/peromyscus/blast/Peromyscus_Protein.fasta
 
 
 
-Repeat analysis using a mammalian database
+##Repeat analysis using a mammalian database
 
 
 module load mchakrab/repeatmodeler/1.0.11
