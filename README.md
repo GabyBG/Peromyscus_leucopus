@@ -21,6 +21,8 @@ After obtaining the AA squencences we had to modify the headers to get rid of th
 
 Then I used an script I found in Github a script  [Keep-longest.py](https://gist.github.com/mkweskin/8869358) to remove duplicates by keep the longest sequence
 And my version can be found in []()
+> python removedup.py Protein_B.fasta > Peromyscus_Protein.fasta
+
 
 
   ### _Running Pfam_ 
