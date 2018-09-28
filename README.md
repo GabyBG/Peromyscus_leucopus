@@ -7,9 +7,9 @@
 
 
 ## PFam from the protein sequences
-  ## _Selecting longer transcript_
+  ### _Selecting longer transcript_
 
-  ## _Running Pfam_ 
+  ### _Running Pfam_ 
 module load hmmer/3.1b2
 
 hmmscan -E 0.000001 --domE 0.001 --tblout Peromyscus.table.txt --domtblout Peromyscus.domains.txt --noali --cpu 32 Pfam-A.hmm /
