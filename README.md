@@ -32,7 +32,7 @@ We downloaded the PFam database PFam-A.hmm, so we could match our sequences with
 
 >hmmscan -E 0.000001 --domE 0.001 --tblout Peromyscus.table.txt --domtblout Peromyscus.domains.txt --noali --cpu 32 Pfam-A.hmm /share/samdata/gbalderr/peromyscus/blast/Peromyscus_Protein.fasta
 
-![PFam](https://github.com/GabyBG/Peromyscus_leucopus/blob/master/Paper_figures/Pfam_Transcripts_TransDecoder.tiff)
+![PFam](https://github.com/GabyBG/Peromyscus_leucopus/blob/master/Figures_GBG/PFam_trinity.JPG)
 
 
 
@@ -49,7 +49,7 @@ database to be used.
 
 > RepeatMasker -pa 8 -xsmall -gff -s --species mammal -dir RMoutGBG -e ncbi peromyscus_assembly_scaffolds.fasta
 
-![Repeats](https://github.com/GabyBG/Peromyscus_leucopus/blob/master/FIGURES_GBG/Slide1.JPG)
+![Repeats](https://github.com/GabyBG/Peromyscus_leucopus/blob/master/Figures_GBG/Repeats.JPG)
 
 
 
