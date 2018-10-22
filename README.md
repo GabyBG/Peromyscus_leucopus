@@ -32,7 +32,7 @@ We downloaded the PFam database PFam-A.hmm, so we could match our sequences with
 
 >hmmscan -E 0.000001 --domE 0.001 --tblout Peromyscus.table.txt --domtblout Peromyscus.domains.txt --noali --cpu 32 Pfam-A.hmm /share/samdata/gbalderr/peromyscus/blast/Peromyscus_Protein.fasta
 
-![PFam](https://github.com/GabyBG/Peromyscus_leucopus/blob/master/Figures_GBG/Pfam_vsMouse.tiff)
+![PFam](https://github.com/GabyBG/Peromyscus_leucopus/blob/master/Figures_GBG/PFam_vsMouse.jpeg)
 
 
 
